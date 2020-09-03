@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Chris/CLionProjects/HTTCP/src/HTTP.cpp
+HTTP.h
+C:/Users/Chris/CLionProjects/HTTCP/src/HTTP.h
+stdlib.h
+-
+
+C:/Users/Chris/CLionProjects/HTTCP/src/HTTP.h
+string
+C:/Users/Chris/CLionProjects/HTTCP/src/string
+
