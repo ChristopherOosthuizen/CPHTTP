@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/HTTP.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/CPPHTTP/CMakeFiles/HTTCP_lib.dir/HTTP.cpp.obj"
+  "C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/Socket.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/CPPHTTP/CMakeFiles/HTTCP_lib.dir/Socket.cpp.obj"
   "C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/main.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/CPPHTTP/CMakeFiles/HTTCP_lib.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

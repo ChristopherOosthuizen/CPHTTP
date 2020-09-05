@@ -86,9 +86,34 @@ CPPHTTP\CMakeFiles\HTTCP_run.dir\HTTP.cpp.s: cmake_force
 <<
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
 
+CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.obj: CPPHTTP\CMakeFiles\HTTCP_run.dir\flags.make
+CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.obj: ..\CPPHTTP\Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CPPHTTP/CMakeFiles/HTTCP_run.dir/Socket.cpp.obj"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\HTTCP_run.dir\Socket.cpp.obj /FdCMakeFiles\HTTCP_run.dir\ /FS -c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\Socket.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTTCP_run.dir/Socket.cpp.i"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\HTTCP_run.dir\Socket.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\Socket.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTTCP_run.dir/Socket.cpp.s"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\HTTCP_run.dir\Socket.cpp.s /c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\Socket.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
 CPPHTTP\CMakeFiles\HTTCP_run.dir\main.cpp.obj: CPPHTTP\CMakeFiles\HTTCP_run.dir\flags.make
 CPPHTTP\CMakeFiles\HTTCP_run.dir\main.cpp.obj: ..\CPPHTTP\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CPPHTTP/CMakeFiles/HTTCP_run.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CPPHTTP/CMakeFiles/HTTCP_run.dir/main.cpp.obj"
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\HTTCP_run.dir\main.cpp.obj /FdCMakeFiles\HTTCP_run.dir\ /FS -c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\main.cpp
@@ -114,16 +139,18 @@ CPPHTTP\CMakeFiles\HTTCP_run.dir\main.cpp.s: cmake_force
 # Object files for target HTTCP_run
 HTTCP_run_OBJECTS = \
 "CMakeFiles\HTTCP_run.dir\HTTP.cpp.obj" \
+"CMakeFiles\HTTCP_run.dir\Socket.cpp.obj" \
 "CMakeFiles\HTTCP_run.dir\main.cpp.obj"
 
 # External object files for target HTTCP_run
 HTTCP_run_EXTERNAL_OBJECTS =
 
 CPPHTTP\HTTCP_run.exe: CPPHTTP\CMakeFiles\HTTCP_run.dir\HTTP.cpp.obj
+CPPHTTP\HTTCP_run.exe: CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.obj
 CPPHTTP\HTTCP_run.exe: CPPHTTP\CMakeFiles\HTTCP_run.dir\main.cpp.obj
 CPPHTTP\HTTCP_run.exe: CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make
 CPPHTTP\HTTCP_run.exe: CPPHTTP\CMakeFiles\HTTCP_run.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HTTCP_run.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HTTCP_run.exe"
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
 	C:\Users\Chris\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\HTTCP_run.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\HTTCP_run.dir\objects1.rsp @<<
  /out:HTTCP_run.exe /implib:HTTCP_run.lib /pdb:C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP\HTTCP_run.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 

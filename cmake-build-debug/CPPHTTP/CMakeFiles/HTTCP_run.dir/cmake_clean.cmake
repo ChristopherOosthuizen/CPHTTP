@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HTTCP_run.dir/HTTP.cpp.obj"
+  "CMakeFiles/HTTCP_run.dir/Socket.cpp.obj"
   "CMakeFiles/HTTCP_run.dir/main.cpp.obj"
   "HTTCP_run.exe"
   "HTTCP_run.exe.manifest"

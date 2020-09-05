@@ -488,6 +488,14 @@
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>
 		</Unit>
+		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/Socket.cpp">
+			<Option target="HTTCP_run"/>
+			<Option target="HTTCP_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/Socket.h">
+			<Option target="HTTCP_run"/>
+			<Option target="HTTCP_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/main.cpp">
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>

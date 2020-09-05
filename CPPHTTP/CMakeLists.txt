@@ -6,4 +6,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}_run ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES} main.cpp HTTP.cpp HTTP.h)
+add_library(${BINARY}_lib STATIC ${SOURCES} main.cpp HTTP.cpp HTTP.h Socket.cpp Socket.h)
