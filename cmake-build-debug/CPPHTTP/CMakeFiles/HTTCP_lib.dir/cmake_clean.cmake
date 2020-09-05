@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HTTCP_lib.dir/HTTP.cpp.obj"
-  "CMakeFiles/HTTCP_lib.dir/Socket.cpp.obj"
+  "CMakeFiles/HTTCP_lib.dir/URL.cpp.obj"
   "CMakeFiles/HTTCP_lib.dir/main.cpp.obj"
   "HTTCP_lib.lib"
   "HTTCP_lib.pdb"

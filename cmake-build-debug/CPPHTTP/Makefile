@@ -232,41 +232,41 @@ HTTP.cpp.s:
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
 .PHONY : HTTP.cpp.s
 
-Socket.obj: Socket.cpp.obj
+URL.obj: URL.cpp.obj
 
-.PHONY : Socket.obj
+.PHONY : URL.obj
 
 # target to build an object file
-Socket.cpp.obj:
+URL.cpp.obj:
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\Socket.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\URL.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\URL.cpp.obj
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
-.PHONY : Socket.cpp.obj
+.PHONY : URL.cpp.obj
 
-Socket.i: Socket.cpp.i
+URL.i: URL.cpp.i
 
-.PHONY : Socket.i
+.PHONY : URL.i
 
 # target to preprocess a source file
-Socket.cpp.i:
+URL.cpp.i:
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.i
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\Socket.cpp.i
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\URL.cpp.i
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\URL.cpp.i
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
-.PHONY : Socket.cpp.i
+.PHONY : URL.cpp.i
 
-Socket.s: Socket.cpp.s
+URL.s: URL.cpp.s
 
-.PHONY : Socket.s
+.PHONY : URL.s
 
 # target to generate assembly for a file
-Socket.cpp.s:
+URL.cpp.s:
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\Socket.cpp.s
-	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\Socket.cpp.s
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_run.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_run.dir\URL.cpp.s
+	$(MAKE) $(MAKESILENT) -f CPPHTTP\CMakeFiles\HTTCP_lib.dir\build.make /nologo -$(MAKEFLAGS) CPPHTTP\CMakeFiles\HTTCP_lib.dir\URL.cpp.s
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CPPHTTP
-.PHONY : Socket.cpp.s
+.PHONY : URL.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -320,9 +320,9 @@ help:
 	@echo ... HTTP.obj
 	@echo ... HTTP.i
 	@echo ... HTTP.s
-	@echo ... Socket.obj
-	@echo ... Socket.i
-	@echo ... Socket.s
+	@echo ... URL.obj
+	@echo ... URL.i
+	@echo ... URL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
