@@ -177,6 +177,72 @@ HTTCP_tst\fast:
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
 .PHONY : HTTCP_tst\fast
 
+__\CPPHTTP\HTTP.obj: __\CPPHTTP\HTTP.cpp.obj
+
+.PHONY : __\CPPHTTP\HTTP.obj
+
+# target to build an object file
+__\CPPHTTP\HTTP.cpp.obj:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\HTTP.cpp.obj
+
+__\CPPHTTP\HTTP.i: __\CPPHTTP\HTTP.cpp.i
+
+.PHONY : __\CPPHTTP\HTTP.i
+
+# target to preprocess a source file
+__\CPPHTTP\HTTP.cpp.i:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.i
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\HTTP.cpp.i
+
+__\CPPHTTP\HTTP.s: __\CPPHTTP\HTTP.cpp.s
+
+.PHONY : __\CPPHTTP\HTTP.s
+
+# target to generate assembly for a file
+__\CPPHTTP\HTTP.cpp.s:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.s
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\HTTP.cpp.s
+
+__\CPPHTTP\URL.obj: __\CPPHTTP\URL.cpp.obj
+
+.PHONY : __\CPPHTTP\URL.obj
+
+# target to build an object file
+__\CPPHTTP\URL.cpp.obj:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\URL.cpp.obj
+
+__\CPPHTTP\URL.i: __\CPPHTTP\URL.cpp.i
+
+.PHONY : __\CPPHTTP\URL.i
+
+# target to preprocess a source file
+__\CPPHTTP\URL.cpp.i:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.i
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\URL.cpp.i
+
+__\CPPHTTP\URL.s: __\CPPHTTP\URL.cpp.s
+
+.PHONY : __\CPPHTTP\URL.s
+
+# target to generate assembly for a file
+__\CPPHTTP\URL.cpp.s:
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\HTTCP_tst.dir\build.make /nologo -$(MAKEFLAGS) tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.s
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+.PHONY : __\CPPHTTP\URL.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -255,6 +321,12 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... HTTCP_tst
+	@echo ... __/CPPHTTP/HTTP.obj
+	@echo ... __/CPPHTTP/HTTP.i
+	@echo ... __/CPPHTTP/HTTP.s
+	@echo ... __/CPPHTTP/URL.obj
+	@echo ... __/CPPHTTP/URL.i
+	@echo ... __/CPPHTTP/URL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

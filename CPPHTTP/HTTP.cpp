@@ -1,9 +1,10 @@
 //
-// Created by Chris on 9/3/2020.
+// Created by Chris on 9/5/2020.
 //
 
 #include "HTTP.h"
 #include <stdlib.h>
+
 
 HTTP::HTTP(RequestType type,std::string url){
     m_actualType = type;
@@ -32,7 +33,6 @@ std::string HTTP::typeToString(RequestType type){
         case RequestType::GET:return "GET";
         case RequestType::PUT:return "PUT";
         case RequestType::HEAD:return "HEAD";
-        case RequestType::DELETE:return "DELETE";
         case RequestType::CONNECT:return "CONNECT";
         case RequestType::OPTIONS:return "OPTIONS";
         case RequestType::TRACE:return "TRACE";
@@ -45,9 +45,9 @@ std::string HTTP::toString() {
     std::string result ="";
     result += HTTP::m_type+" ";
     result += HTTP::m_url;
-    result += " HTTP/1.1\n";
+    result += " HTTP/1.1\r\n";
     result+= attributesToString();
-    result+="\n";
+    result+="\r\n";
     if(!m_content.empty())
         result+=m_content;
     return result;
@@ -62,7 +62,7 @@ std::string HTTP::attributesToString() {
     std::string result = "";
     //iterate through the map adding each value
     for(auto iter = m_attributes->begin(); iter!= m_attributes->end();++iter){
-        result += iter->first +": "+ iter->second+"\n";
+        result += iter->first +": "+ iter->second+"\r\n";
 
     }
     return result;

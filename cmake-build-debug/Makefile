@@ -252,6 +252,60 @@ gtest_main\fast:
 	$(MAKE) $(MAKESILENT) -f lib\googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) lib\googletest\googletest\CMakeFiles\gtest_main.dir\build
 .PHONY : gtest_main\fast
 
+CPPHTTP\HTTP.obj: CPPHTTP\HTTP.cpp.obj
+
+.PHONY : CPPHTTP\HTTP.obj
+
+# target to build an object file
+CPPHTTP\HTTP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\HTTP.cpp.obj
+.PHONY : CPPHTTP\HTTP.cpp.obj
+
+CPPHTTP\HTTP.i: CPPHTTP\HTTP.cpp.i
+
+.PHONY : CPPHTTP\HTTP.i
+
+# target to preprocess a source file
+CPPHTTP\HTTP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\HTTP.cpp.i
+.PHONY : CPPHTTP\HTTP.cpp.i
+
+CPPHTTP\HTTP.s: CPPHTTP\HTTP.cpp.s
+
+.PHONY : CPPHTTP\HTTP.s
+
+# target to generate assembly for a file
+CPPHTTP\HTTP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\HTTP.cpp.s
+.PHONY : CPPHTTP\HTTP.cpp.s
+
+CPPHTTP\URL.obj: CPPHTTP\URL.cpp.obj
+
+.PHONY : CPPHTTP\URL.obj
+
+# target to build an object file
+CPPHTTP\URL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\URL.cpp.obj
+.PHONY : CPPHTTP\URL.cpp.obj
+
+CPPHTTP\URL.i: CPPHTTP\URL.cpp.i
+
+.PHONY : CPPHTTP\URL.i
+
+# target to preprocess a source file
+CPPHTTP\URL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\URL.cpp.i
+.PHONY : CPPHTTP\URL.cpp.i
+
+CPPHTTP\URL.s: CPPHTTP\URL.cpp.s
+
+.PHONY : CPPHTTP\URL.s
+
+# target to generate assembly for a file
+CPPHTTP\URL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTTCP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HTTCP.dir\CPPHTTP\URL.cpp.s
+.PHONY : CPPHTTP\URL.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -298,6 +352,12 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... CPPHTTP/HTTP.obj
+	@echo ... CPPHTTP/HTTP.i
+	@echo ... CPPHTTP/HTTP.s
+	@echo ... CPPHTTP/URL.obj
+	@echo ... CPPHTTP/URL.i
+	@echo ... CPPHTTP/URL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

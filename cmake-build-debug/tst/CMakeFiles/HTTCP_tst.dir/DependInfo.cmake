@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/HTTP.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/tst/CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/HTTP.cpp.obj"
+  "C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/URL.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/tst/CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/URL.cpp.obj"
   "C:/Users/Chris/CLionProjects/HTTCP/tst/main.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/tst/CMakeFiles/HTTCP_tst.dir/main.cpp.obj"
   "C:/Users/Chris/CLionProjects/HTTCP/tst/tester.cpp" "C:/Users/Chris/CLionProjects/HTTCP/cmake-build-debug/tst/CMakeFiles/HTTCP_tst.dir/tester.cpp.obj"
   )

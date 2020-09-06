@@ -481,20 +481,28 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/HTTP.cpp">
+			<Option target="HTTCP"/>
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>
+			<Option target="HTTCP_tst"/>
 		</Unit>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/HTTP.h">
+			<Option target="HTTCP"/>
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>
+			<Option target="HTTCP_tst"/>
 		</Unit>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/URL.cpp">
+			<Option target="HTTCP"/>
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>
+			<Option target="HTTCP_tst"/>
 		</Unit>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/URL.h">
+			<Option target="HTTCP"/>
 			<Option target="HTTCP_run"/>
 			<Option target="HTTCP_lib"/>
+			<Option target="HTTCP_tst"/>
 		</Unit>
 		<Unit filename="C:/Users/Chris/CLionProjects/HTTCP/CPPHTTP/main.cpp">
 			<Option target="HTTCP_run"/>

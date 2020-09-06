@@ -1,19 +1,15 @@
-//
-// Created by Chris on 9/3/2020.
-//
-
 #ifndef HTTCP_HTTP_H
 #define HTTCP_HTTP_H
 #include <string>
 #include <map>
-enum class RequestType{GET,HEAD,POST,PUT,DELETE,CONNECT,OPTIONS,TRACE};
+enum class RequestType{GET,HEAD,POST,PUT,CONNECT,OPTIONS,TRACE,};
 class HTTP {
-    private:
-        RequestType m_actualType;
-        std::string m_type;
-        std::string m_url;
-        std::string m_content;
-        std::map<std::string,std::string> *m_attributes;
+private:
+    RequestType m_actualType;
+    std::string m_type;
+    std::string m_url;
+    std::string m_content;
+    std::map<std::string,std::string> *m_attributes;
 
 public:
     HTTP(RequestType type, std::string url);
@@ -30,6 +26,4 @@ private:
     std::string attributesToString();
 
 };
-
-
-#endif //HTTCP_HTTP_H
+#endif

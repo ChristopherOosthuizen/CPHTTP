@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/HTTP.cpp.obj"
+  "CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/URL.cpp.obj"
   "CMakeFiles/HTTCP_tst.dir/main.cpp.obj"
   "CMakeFiles/HTTCP_tst.dir/tester.cpp.obj"
   "HTTCP_tst.exe"

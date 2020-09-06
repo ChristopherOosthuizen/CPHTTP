@@ -111,21 +111,75 @@ tst\CMakeFiles\HTTCP_tst.dir\tester.cpp.s: cmake_force
 <<
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
 
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj: tst\CMakeFiles\HTTCP_tst.dir\flags.make
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj: ..\CPPHTTP\HTTP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tst/CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/HTTP.cpp.obj"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj /FdCMakeFiles\HTTCP_tst.dir\ /FS -c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\HTTP.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/HTTP.cpp.i"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\HTTP.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/HTTP.cpp.s"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.s /c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\HTTP.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj: tst\CMakeFiles\HTTCP_tst.dir\flags.make
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj: ..\CPPHTTP\URL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tst/CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/URL.cpp.obj"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj /FdCMakeFiles\HTTCP_tst.dir\ /FS -c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\URL.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/URL.cpp.i"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\URL.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
+tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTTCP_tst.dir/__/CPPHTTP/URL.cpp.s"
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.s /c C:\Users\Chris\CLionProjects\HTTCP\CPPHTTP\URL.cpp
+<<
+	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug
+
 # Object files for target HTTCP_tst
 HTTCP_tst_OBJECTS = \
 "CMakeFiles\HTTCP_tst.dir\main.cpp.obj" \
-"CMakeFiles\HTTCP_tst.dir\tester.cpp.obj"
+"CMakeFiles\HTTCP_tst.dir\tester.cpp.obj" \
+"CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj" \
+"CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj"
 
 # External object files for target HTTCP_tst
 HTTCP_tst_EXTERNAL_OBJECTS =
 
 tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\main.cpp.obj
 tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\tester.cpp.obj
+tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\HTTP.cpp.obj
+tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\__\CPPHTTP\URL.cpp.obj
 tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\build.make
 tst\HTTCP_tst.exe: CPPHTTP\HTTCP_lib.lib
 tst\HTTCP_tst.exe: lib\gtestd.lib
 tst\HTTCP_tst.exe: tst\CMakeFiles\HTTCP_tst.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HTTCP_tst.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable HTTCP_tst.exe"
 	cd C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst
 	C:\Users\Chris\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\HTTCP_tst.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\HTTCP_tst.dir\objects1.rsp @<<
  /out:HTTCP_tst.exe /implib:HTTCP_tst.lib /pdb:C:\Users\Chris\CLionProjects\HTTCP\cmake-build-debug\tst\HTTCP_tst.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  ..\CPPHTTP\HTTCP_lib.lib ..\lib\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
